@@ -1,0 +1,117 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #202225;
+    font-family: 'Inter', sans-serif;
+}
+
+h4,p{
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header{
+    background-color: #2F3136;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    color: white;
+    box-shadow: 0px 8px 8px #888888;
+}
+
+.header>h2{
+    margin-right: 2%;
+}
+
+.header-img{
+    width: 75px;
+    padding: 2px;
+    margin-right: auto;
+}
+
+.topic-card{
+    display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 50px 100px 100px 100px;
+}
+
+.card{
+    padding: 5px 10px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    text-align: center; 
+    color: black;
+    transition: transform .2s;
+    background-color: #abd9f3;
+}
+.card>h4{
+    font-size: 1.3rem;
+}
+
+
+.card:hover{
+    background-color: #FFDCB6;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*table*/
+
+.table-container{
+ 
+    margin-left: 12%;
+  
+}
+
+
+table,td,th {
+    border: 0.5px solid #DBDBDB;
+    padding: 12px;
+    border-collapse:collapse;
+    background-color: #F0F0F0;
+}
+
+.status{
+    width: 100px;
+    text-align: center;
+}
+
+.star{
+    width: 80px;
+    text-align: center;
+}
+
+.prob{
+    width:600px;
+    font-weight: bold;
+}
+
+.link{
+    text-align: center;
+    width:100px;
+}
+
+.link-img{
+    width: 35px;
+}
+.star-img{
+    width:25px;
+}
+
+/*table*/
+
+
+
+
